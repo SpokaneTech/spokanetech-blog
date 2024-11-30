@@ -1,0 +1,49 @@
+site_name: Spokane Tech Blog
+site_url: https://spokanetech.github.io/spokanetech-blog/
+
+theme:
+  name: material
+  logo: img/android-chrome-192x192.png
+  favicon: img/android-chrome-192x192.png
+  features:
+    - navigation.tabs
+  font:
+    text: "Roboto"
+    code: "Source Code Pro"
+  palette:
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+nav:
+  - Home: index.md
+  # - About: about.md
+  - Building Spokane Tech:
+      - Introduction: building-spokane-tech/intro.md
+      - Part 1: building-spokane-tech/part-01.md
+      - Part 2: building-spokane-tech/part-02.md
+      - Part 3: building-spokane-tech/part-03.md
+  # - Links and Resources:
+  #     - Tech Stack: resources/techstack.md
+
+
+plugins:
+  - search
+  - blogging:
+      tag_url: tags/{tag}.html
+      date_format: "%Y-%m-%d"
+      date_locale: en_US
+
+
+# The following can be used if you need custom metadata for each page
+metadata:
+  description: "A blog about the tech scene in Spokane"
+  author: "Spokane Tech Community"
