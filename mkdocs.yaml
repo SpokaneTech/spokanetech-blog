@@ -39,13 +39,3 @@ nav:
 
 plugins:
   - search
-  - blogging:
-      tag_url: tags/{tag}.html
-      date_format: "%Y-%m-%d"
-      date_locale: en_US
-
-
-# The following can be used if you need custom metadata for each page
-metadata:
-  description: "A blog about the tech scene in Spokane"
-  author: "Spokane Tech Community"
