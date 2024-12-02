@@ -29,7 +29,7 @@ nav:
       - "Introduction": building-spokane-tech/intro.md
       - "Part 1: Setup": building-spokane-tech/part-01.md
       - "Part 2: Project Structure": building-spokane-tech/part-02.md
-      - "Part 3: Data Modelling": building-spokane-tech/part-03.md
+      - "Part 3: Data Modeling": building-spokane-tech/part-03.md
       - "Part 4: Initial GUI": building-spokane-tech/part-04.md
       - "Part 5: Data Collection": building-spokane-tech/part-05.md
       - "Part 6: Scheduling Tasks": building-spokane-tech/part-06.md
